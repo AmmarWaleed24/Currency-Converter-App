@@ -3,7 +3,7 @@
 A modern, highly responsive Currency Converter web application built from scratch using clean, standard Web Technologies. The app fetches real-time, accurate exchange rates from a live financial API.
 
 ## 🔗 Live Demo
-👉 **[View Live Project Here](https://YOUR_GITHUB_USERNAME.github.io/YOUR_REPO_NAME/)** *(Replace with your actual link)*
+👉 **[View Live Project Here](https://ammarwaleed24.github.io/Currency-Converter-App/)** *(Replace with your actual link)*
 
 ## ✨ Key Features
 - **Live API Integration:** Uses the Fetch API (`async/await`) to pull accurate, up-to-the-minute exchange rates dynamically.
@@ -17,5 +17,4 @@ A modern, highly responsive Currency Converter web application built from scratc
 - **CSS3:** Advanced Grid Layout, CSS Custom Variables, and responsive breakpoints.
 - **Vanilla JavaScript:** Asynchronous programming, DOM updates, and error handling.
 
-## 📸 Preview
-*(Feel free to drop your screenshot here)*
+
