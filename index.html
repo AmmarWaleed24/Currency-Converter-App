@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="converter-box">
+        <h2>💱 Currency Converter</h2>
+        
+        <div class="field">
+            <label>Amount:</label>
+            <input type="number" id="amount" value="1" min="1">
+        </div>
+
+        <div class="dropdowns">
+            <div class="field">
+                <label>From:</label>
+                <select id="fromCurrency">
+                    <option value="USD" selected>USD - US Dollar</option>
+                    <option value="EUR">EUR - Euro</option>
+                    <option value="EGP">EGP - Egyptian Pound</option>
+                    <option value="SAR">SAR - Saudi Riyal</option>
+                    <option value="AED">AED - UAE Dirham</option>
+                </select>
+            </div>
+
+            <div class="field">
+                <label>To:</label>
+                <select id="toCurrency">
+                    <option value="USD">USD - US Dollar</option>
+                    <option value="EUR">EUR - Euro</option>
+                    <option value="EGP" selected>EGP - Egyptian Pound</option>
+                    <option value="SAR">SAR - Saudi Riyal</option>
+                    <option value="AED">AED - UAE Dirham</option>
+                </select>
+            </div>
+        </div>
+
+        <button id="convertBtn">Get Exchange Rate</button>
+        <div id="result">Result will appear here...</div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
